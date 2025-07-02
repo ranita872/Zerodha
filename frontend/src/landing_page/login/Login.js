@@ -31,7 +31,7 @@ const Login = () => {
         setMessage("Login successful! Redirecting...");
 
         setTimeout(() => {
-          window.location.href = "http://localhost:3001/";
+          window.location.href = "https://zerodha-xkad.vercel.app";
         }, 1000);
       } else {
         setMessage(data.message || "Login failed!");
