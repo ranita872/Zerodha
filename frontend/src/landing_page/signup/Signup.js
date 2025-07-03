@@ -30,7 +30,7 @@ const Signup = () => {
         setMessage("Signup successful! Redirecting...");
         
         setTimeout(() => {
-          window.location.href = "zerodha-59lu.vercel.app";
+          window.location.href = "http://zerodha-hazel.vercel.app";
         }, 1000);
       } else {
         setMessage(data.message || "Signup failed!");
