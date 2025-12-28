@@ -17,7 +17,7 @@ const Menu = () => {
     const handleLogout = () => {
     localStorage.removeItem("token"); // Clear user session
     setTimeout(() => {
-        window.location.href = "http://zerodha-qw2l.vercel.app"; // Redirect to Landing Page
+        window.location.href = "https://zerodha-68n5.vercel.app/"; // Redirect to Landing Page
     }, 1000); 
 };
     
